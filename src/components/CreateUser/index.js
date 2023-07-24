@@ -13,7 +13,7 @@ export default function Inicio({data, navigation}){
         <SafeAreaView style={{flex: 1, backgroundColor: "#171d31"}}>
             <View style={{flex:1, alignItems: "center", justifyContent: "center"}}>
                 {/* <Text style={{fontSize: 35}}>
-                     Iniciooo
+                     Iniciooooo
                 </Text> */}
                 <Button
                 title="Cadastrar Usuários"
