@@ -69,6 +69,21 @@ const estilos = StyleSheet.create({
     textBotao2:{
         color: '#121212',
         fontSize: 15
+    },
+    lista:{
+        backgroundColor: "#FFF",
+        margin: 8,
+        flexDirection: "row",
+        alignItems: "center",
+        borderRadius: 5,
+        padding: 7,
+        width: 350,
+        marginTop: 8
+        
+    },
+    textoLista:{
+        marginLeft: 10,
+        fontSize: 17
     }
 });
 
