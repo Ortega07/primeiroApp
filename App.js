@@ -21,6 +21,7 @@ export default function App(){
                     let iconName;
         
                     if (route.name === 'Início') {
+                        
                         iconName = focused
                         ? 'infocirlce'
                         : 'infocirlceo';
@@ -34,8 +35,9 @@ export default function App(){
                     },
                     tabBarActiveTintColor: 'blue',
                     tabBarInactiveTintColor: 'grey',
+                    
                 })}
-                options={{}}
+                // options={{}}
             >
                 <Tab.Screen
                     name="Início"
